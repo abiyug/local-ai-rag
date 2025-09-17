@@ -1,1 +1,1 @@
-👉 [View rendered R Markdown](index.html
+👉 [View rendered R Markdown](index.html)
