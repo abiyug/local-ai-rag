@@ -1,2 +1,2 @@
-👉 [Live HTML version](https://abiyug.github.io/rag-local-ai/)
+👉 [Live HTML version](https://abiyug.github.io/ocal-ai-rag/)
 
