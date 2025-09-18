@@ -11,7 +11,7 @@
 
 <meta name="author" content="dataRecode" />
 
-<meta name="date" content="2025-09-17" />
+<meta name="date" content="2025-09-18" />
 
 <title>Local AI with RAG: Integrating Your Documents into LLM Responses</title>
 
@@ -353,7 +353,7 @@ display: none;
 <h1 class="title toc-ignore">Local AI with RAG: Integrating Your
 Documents into LLM Responses</h1>
 <h4 class="author">dataRecode</h4>
-<h4 class="date">September 17, 2025</h4>
+<h4 class="date">September 18, 2025</h4>
 
 </div>
 
@@ -372,6 +372,10 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 h2, h3 {
 color: #899499;
 font-weight: bold;
+}
+p {
+font-size: 1.3em; 
+line-height: 1.4;
 }
 </style>
 <div id="motivation" class="section level2">
@@ -400,11 +404,11 @@ context.</p>
 <code>qwen2.5:7b</code> model. Running the model locally means
 everything stays on your machine, with no cloud dependency — ideal for
 privacy, speed, and control.</p>
-I connected a few sample documents to the model using RAG, and used the
-<code>ellmer</code> package to inspect how well it retrieved and
+<p>I connected a few sample documents to the model using RAG, and used
+the <code>ellmer</code> package to inspect how well it retrieved and
 responded. This gist walks through that workflow — not too technical,
 just enough to help others try it out and adapt it to their own use
-cases.
+cases.</p>
 </p>
 </div>
 <div style="flex: 1;">
@@ -435,13 +439,14 @@ inspection<br />
 Make sure these packages are installed and loaded before running the
 code chunks.</p>
 </blockquote>
-<p>The walkthrough includes: 1. Preparing sample documents<br />
-2. Generating a vector index using GloVe embeddings via
+<p>The walkthrough includes:<br />
+* Preparing sample documents<br />
+* Generating a vector index using GloVe embeddings via
 <code>text2vec</code><br />
-3. Implementing RAG with <code>ellmer</code> and querying the local
+* Implementing RAG with <code>ellmer</code> and querying the local
 LLM<br />
-4. Testing and verifying responses<br />
-5. Reflecting on takeaways and next steps</p>
+* Testing and verifying responses<br />
+* Reflecting on takeaways and next steps</p>
 <hr />
 </div>
 <div id="prepare-sample-documents" class="section level2">
@@ -507,8 +512,8 @@ For deeper technical details on <code>text2vec</code>, see: <a href="https://cra
 <div id="objective-1" class="section level3">
 <h3>Objective</h3>
 <p>Generate a vector index of document embeddings using
-<code>text2vec</code> and GloVe — enabling semantic retrieval for
-RAG.</p>
+<code>text2vec</code> and GloVe function — enabling semantic retrieval
+for RAG.</p>
 </div>
 <div id="workflow" class="section level3">
 <h3>Workflow</h3>
@@ -614,6 +619,11 @@ resources. Depending on your data size and model complexity, additional
 RAM, CPU, or GPU capacity might be needed to ensure smooth
 operation.</p>
 </blockquote>
+<hr />
+<p><em>Whether you’re exploring Retrieval-Augmented Generation (RAG),
+fine-tuning LLM workflows, or seeking tailored solutions for your
+organization, we’d be glad to connect. For inquiries, consultations, or
+partnership opportunities, please reach out to us at <strong><a href="mailto:info@datarecode.com" class="email">info@datarecode.com</a></strong>.</em></p>
 <hr />
 <!-- End of document -->
 </div>
