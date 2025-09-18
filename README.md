@@ -9,5 +9,5 @@ Features include:
 - Minimal dependencies and clear workflow diagrams
 
 For setup instructions, usage examples, and technical notes, see the full Gist:  
-👉 [https://gist.github.com/abiyug/local-ai-rag](https://gist.github.com/abiyug/local-ai-rag)
+👉 [[https://abiyug.github.com/abiyug/local-ai-rag]](https://abiyug.github.io/local-ai-rag/)
 
