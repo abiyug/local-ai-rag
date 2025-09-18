@@ -4,7 +4,7 @@ This project offers a lightweight setup for Retrieval-Augmented Generation (RAG)
 
 Features include:
 - Local document ingestion and embedding
-- Fast retrieval with FAISS
+- Index Documents with Embeddings
 - Streamlined LLM integration (e.g., Ollama, LM Studio)
 - Minimal dependencies and clear workflow diagrams
 
